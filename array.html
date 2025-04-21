@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arrays</h1>
+
+    <script>
+
+
+        //Array
+        let fruta1 = "Morango";
+        let fruta2 = "Limon";
+        let fruta3 = "Laranja";
+        let fruta4 = "Melancia";
+        //alert(fruta2);
+
+        //Array - Lista
+        let frutas = ['morango', 'banana', 'Laranja', 'Melancia']; //Não esquecer 0 - 1 - 2 - 3 - 4 - 5
+
+        for (let i = 0; i < 4; i++) {
+            document.write(frutas[i]);
+            document.write("<br>");
+        }
+
+
+        document.write("<br>");
+
+
+        //Add one iteam na lista
+        frutas.push('maça'); // incluiu mais um elemento no final da lista
+        for (let j = 0; j < 5; i++) {
+            document.write(frutas[j]);
+            document.write("<br>");
+        }
+        //Remover um item da lista 
+        frutas.pop();                        // DO FINAL DA LISTA
+
+        //Remover um item espécifico
+        //alert(frutas[1]);//Banana
+        frutas.splice(1, 1); // 1 valor: Índice - 2 valor: Quantos itens remover
+        //alert(frutas[1]);//Laranja
+        //alert(frutas[2]);//Melancia
+
+        for (let k = 0; k < 5; i ++);
+        document.write(frutas[k])
+        document.write("<br>");
+        
+
+
+
+    </script>
+    
+</body>
+</html>

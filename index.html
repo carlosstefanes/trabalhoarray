@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula sobre looping</title>
+</head>
+<body>
+    <h1>Funções</h1>
+
+    <script>
+        
+        // ESCOPO DAS VARIÁVEIS
+        //Global Ou Local
+
+        let nome = 'Carlos'; //Global - Public
+
+        function mostrarNome(){
+            let nome = 'João' //Local - Private
+            alert(nome);
+        }
+
+        mostrarNome();
+        alert(nome); //Maria 
+
+
+    </script>
+</body>
+</html>
